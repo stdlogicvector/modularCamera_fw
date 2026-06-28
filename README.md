@@ -9,6 +9,8 @@ When connected to a PC, the FX3 presents as a composite device consisting of one
 As the UVC protocol needs predefined settings for resolution, color format and framerate in the USB descriptors, there currently are separate configurations for the different sensors.
 Before compiling for one sensor, set the correct #define in uvc_cfg.h.
 
+There are also several configurations for the GPIF statemachine to accomodate the different data bus widths. 
+
 ## Configuration
 
 Configuration of the sensor is done via the CDC interface. At the moment, all configuration has to be done by the user via this interface.
