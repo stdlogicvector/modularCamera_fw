@@ -1,0 +1,9 @@
+syntax: glob
+._DAV/
+.settings/
+Debug/
+Release/
+*.hg
+*.hgignore
+*.exe
+*.txt
